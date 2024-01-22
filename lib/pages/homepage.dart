@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widgets/drawer.dart';
 
 class homepage extends StatelessWidget {
   final int days = 23;
@@ -16,7 +17,7 @@ class homepage extends StatelessWidget {
           child: Text("Welcome to $days days of udied by $name $price"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
